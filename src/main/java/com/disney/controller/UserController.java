@@ -55,7 +55,7 @@ public class UserController {
 	}
 
 	@RequestMapping(value = "{userId}", method = RequestMethod.DELETE)
-	public ResponseEntity<HttpStatus> delete(@PathParam("userId") Long userId) throws Exception {
+	public ResponseEntity<HttpStatus> delete(@PathVariable("userId") Long userId) throws Exception {
 		userService.delete(userId);
 		return new ResponseEntity<HttpStatus>(HttpStatus.OK);
 	}

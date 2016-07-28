@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11352" started-at="2016-07-28T01:12:30Z" finished-at="2016-07-28T01:12:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11352" started-at="2016-07-28T01:12:30Z" finished-at="2016-07-28T01:12:41Z">
+      <class name="com.disney.test.RestControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="17" started-at="2016-07-27T20:12:30Z" finished-at="2016-07-27T20:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="9827" started-at="2016-07-27T20:12:30Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-07-27T20:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="setup" is-config="true" duration-ms="349" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.createEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="createEvent()[pri:1, instance:com.disney.test.RestControllerTest@28c4711c]" name="createEvent" duration-ms="398" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.createEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getEvent()[pri:2, instance:com.disney.test.RestControllerTest@28c4711c]" name="getEvent" duration-ms="57" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllEvents() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAllEvents()[pri:3, instance:com.disney.test.RestControllerTest@28c4711c]" name="getAllEvents" duration-ms="85" started-at="2016-07-27T20:12:40Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEvents -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.createUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllEvents() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="createUser()[pri:4, instance:com.disney.test.RestControllerTest@28c4711c]" name="createUser" duration-ms="23" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.createUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getUser()[pri:5, instance:com.disney.test.RestControllerTest@28c4711c]" name="getUser" duration-ms="17" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllUsers() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAllUsers()[pri:6, instance:com.disney.test.RestControllerTest@28c4711c]" name="getAllUsers" duration-ms="21" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllUsers() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="12" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllEventsForUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAllEventsForUser()[pri:7, instance:com.disney.test.RestControllerTest@28c4711c]" name="getAllEventsForUser" duration-ms="112" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEventsForUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getAllEventsForUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.addUserToAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addUserToAnEvent()[pri:8, instance:com.disney.test.RestControllerTest@28c4711c]" name="addUserToAnEvent" duration-ms="54" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserToAnEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="9" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.addUserToAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getUsersForAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUsersForAnEvent()[pri:9, instance:com.disney.test.RestControllerTest@28c4711c]" name="getUsersForAnEvent" duration-ms="24" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersForAnEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.getUsersForAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.removeUserFromAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="removeUserFromAnEvent()[pri:10, instance:com.disney.test.RestControllerTest@28c4711c]" name="removeUserFromAnEvent" duration-ms="18" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeUserFromAnEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.removeUserFromAnEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="updateUser()[pri:11, instance:com.disney.test.RestControllerTest@28c4711c]" name="updateUser" duration-ms="35" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.updateUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="15" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.updateUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.updateEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="updateEvent()[pri:12, instance:com.disney.test.RestControllerTest@28c4711c]" name="updateEvent" duration-ms="24" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.updateEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.userDoesntexist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="userDoesntexist()[pri:13, instance:com.disney.test.RestControllerTest@28c4711c]" name="userDoesntexist" duration-ms="23" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDoesntexist -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.userDoesntexist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.eventDoesntexist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="eventDoesntexist()[pri:14, instance:com.disney.test.RestControllerTest@28c4711c]" name="eventDoesntexist" duration-ms="16" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventDoesntexist -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.eventDoesntexist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.deleteUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteUser()[pri:15, instance:com.disney.test.RestControllerTest@28c4711c]" name="deleteUser" duration-ms="34" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.deleteUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.deleteEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteEvent()[pri:16, instance:com.disney.test.RestControllerTest@28c4711c]" name="deleteEvent" duration-ms="23" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.disney.test.RestControllerTest.deleteEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.disney.test.RestControllerTest@28c4711c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-07-27T20:12:41Z" finished-at="2016-07-27T20:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.disney.test.RestControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

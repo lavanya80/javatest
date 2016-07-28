@@ -35,6 +35,17 @@ public class Event {
 	@ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
 	@JoinTable(name = "event_user", joinColumns = @JoinColumn(name = "event_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"))
 	private Set<User> users;
+	
+	public Event(){
+		  
+	 }
+	 
+	 public Event(String name, LocalDate eventDate, LocalTime startTime, LocalTime endTime){
+	  this.name = name;
+	  this.date = eventDate;
+	  this.startTime = startTime;
+	  this.endTime = endTime;
+	 }
 
 	public Long getId() {
 		return id;

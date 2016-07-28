@@ -31,6 +31,16 @@ public class User implements Serializable {
 	@JsonIgnore
 	@ManyToMany(mappedBy = "users")
 	private Set<Event> events;
+	public User(){
+		  
+	 }
+	 
+	 public User(String userName, String firstName, String middleName, String lastName){
+	  this.userName = userName;
+	  this.firstName = firstName;
+	  this.middleName = middleName;
+	  this.lastName = lastName;
+	 }
 
 	public Long getId() {
 		return id;
